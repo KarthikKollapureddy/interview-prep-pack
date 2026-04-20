@@ -4,30 +4,6 @@
 
 ---
 
-## Existing Context (read these first before generating anything)
-
-My workspace already has:
-```
-├── JobDescriptions/
-│   ├── JD_FSDll_FedEx_Hyderabad.pdf        # FedEx Full Stack Dev II - Hyderabad
-│   ├── Job Description.pdf                  # Hatio/BillDesk SDE-2 - Ernakulam (ALREADY CLEARED)
-│   └── NPCI - Next Steps – Fullstack Developer Application.pdf  # NPCI Fullstack - in progress
-└── Resume/
-    └── Sai Karthik Kollapureddy JavaFullStack Developer.pdf
-```
-
-ACTION: Before scaffolding anything —
-1. Parse all PDFs in `JobDescriptions/` and `Resume/`
-2. Cross-reference my resume skills vs each JD's required/mandatory skills
-3. Build a gap matrix: skill appears in JD but weak/missing in resume → mark as HIGH PRIORITY in that topic's qa.md
-4. Use JD keywords verbatim in scenario questions e.g. "At FedEx, your Spring Cloud Gateway service…"
-5. Weight question difficulty using Hatio-cleared level as the baseline — NPCI and FedEx questions should be harder
-6. Store the gap matrix in `INSTRUCTIONS.md` under `## Skill Gap Analysis`
-
-Only then begin scaffolding.
-
----
-
 ## My Background
 
 - **Name:** Sai Karthik Kollapureddy
